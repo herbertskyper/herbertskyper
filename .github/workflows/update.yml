@@ -23,6 +23,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add README.md
           git commit -m "Updated README with current time" || exit 0  # Exit gracefully if no changes
-          git push https://${{ secrets.PAT }}@github.com/herbertskyper/herbertskyper.git
+          # git push https://${{ secrets.PAT }}@github.com/herbertskyper/herbertskyper.git
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
