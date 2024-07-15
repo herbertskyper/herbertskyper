@@ -20,6 +20,11 @@
     </a>
 </p>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/herbertskyper/herbertskyper/main/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake">
+</div>
+
+
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
