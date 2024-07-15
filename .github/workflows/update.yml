@@ -10,9 +10,6 @@ jobs:
     name: Update Readme time stats
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
       - name: Update README with current time
         run: |
           echo "\nLast updated: $(date +'%Y-%m-%d %H:%M:%S')" >> README.md
