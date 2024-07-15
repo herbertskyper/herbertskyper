@@ -17,7 +17,8 @@ jobs:
 
       - name: Update README with current time
         run: |
-          echo -e "\nLast updated: $(date +'%Y-%m-%d')" >> README.md
+          sed -i '$ d' README.md
+          echo -e "Last updated: $(date +'%Y-%m-%d')" >> README.md
 
       - name: Commit and push if changed
         run: |
