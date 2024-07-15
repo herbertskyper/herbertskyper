@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}  # 使用 PAT 而不是默认的 GITHUB_TOKEN
 
       - name: Update README with current time
         run: |
@@ -23,7 +25,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add README.md
           git commit -m "Updated README with current time" || exit 0  # Exit gracefully if no changes
-          echo ${{ secrets.PAT }}
           git push https://${{ secrets.PAT }}@github.com/herbertskyper/herbertskyper.git
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
