@@ -13,11 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }}  # 使用 PAT 而不是默认的 GITHUB_TOKEN
+          token: ${{ secrets.PAT }}  # 使用 PAT 而不是默认的 GITHUB_TOKEN！！！！！
 
       - name: Update README with current time
         run: |
-          echo "\nLast updated: $(date +'%Y-%m-%d %H:%M:%S')" >> README.md
+          echo -e "\nLast updated: $(date +'%Y-%m-%d')" >> README.md
 
       - name: Commit and push if changed
         run: |
