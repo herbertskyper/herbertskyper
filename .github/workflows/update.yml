@@ -18,6 +18,8 @@ jobs:
           echo "\nLast updated: $(date +'%Y-%m-%d %H:%M:%S')" >> README.md
       - name: Commit and push if changed
         run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add README.md
           git commit -m "Updated README with current time" || exit 0  # Exit gracefully if no changes
           git push
