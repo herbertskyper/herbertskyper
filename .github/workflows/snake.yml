@@ -39,7 +39,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: main
-          build_dir: dist/assets
+          build_dir: dist
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
