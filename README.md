@@ -16,7 +16,7 @@
         <img src="https://github-readme-stats.vercel.app/api?username=herbertskyper&count_private=true&rank_icon=github&show_icons=true&theme=tokyonight" />
     </a>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=herbertskyper&layout=donut&hide_border=true&theme=tokyonight" style="height: 195px" />
+        <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=herbertskyper&layout=donut&hide_border=true&theme=tokyonight&size_weight=0.5&count_weight=0.5" style="height: 195px" />
     </a>
 </p>
 
