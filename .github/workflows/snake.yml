@@ -30,7 +30,7 @@ jobs:
             dist/assets/github-contribution-grid-snake.svg?color_snake=#1890FF
             dist/assets/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
           
           
       # push the content of <build_dir> to a branch
