@@ -1,7 +1,7 @@
 ## About me
 - 👋 Hi, I’m @herbertskyper, you can call me Skyper 
 - 👀 I’m interested in ai,os
-- 🌱 I’m currently learning ~~概率论，大物，离散数学~~ csapp,web
+- 🌱 I’m currently learning ~~操作系统，计算机网络，软件构造~~ 数据库，服务器运维，高性能计算
 - 📫 I’m an undergraduate at hitsz
 - ⚡ I enjoy coding and embrace tech&life
 
